@@ -3,7 +3,7 @@ package exercicios.ex02;
 public class Componentes {
     protected String marca;
     protected String modelo;
-    
+
     public Componentes(String marca, String modelo) {
         this.marca = marca;
         this.modelo = modelo;
@@ -29,5 +29,5 @@ public class Componentes {
     public String toString() {
         return "Componentes [marca=" + marca + ", modelo=" + modelo + "]";
     }
-
+    
 }
