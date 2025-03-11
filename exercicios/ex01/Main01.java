@@ -2,14 +2,14 @@ package exercicios.ex01;
 
 public class Main01 {
     public static void main(String[] args) {
-        Animal[] animais = new Animal[3];
-        animais[0] = new Pato();
-        animais[1] = new Gato();
-        animais[2] = new Galo();
+        Cachorro cachorro = new Cachorro();
+        Gato gato = new Gato();
+        Galo galo = new Galo();
+        Pato pato = new Pato();
 
-        for (Animal animal : animais) {
-            System.out.println(animal.emitirSom());
-            System.out.println(animal.comer());
-        }
+        System.out.println("cachorro\nsom: " + cachorro.emitirSom() + "\ncome: " + cachorro.comer());
+        System.out.println("gato\nsom: " + gato.emitirSom() + "\ncome: " + gato.comer());
+        System.out.println("galo\nsom " + galo.emitirSom() + "\ncome: " + galo.comer());
+        System.out.println("pato\nsom: " + pato.emitirSom() + "\ncome: " + pato.comer());
     }
 }
